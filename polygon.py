@@ -4,24 +4,24 @@ import math
 class regular_polygon:
     '''
     This class is used to define regular polygons of 'n' sides and 'r' circum_radius
-    
+
     ### Attributes
     --------------
     num_of_sides : int
         Number of edges/vertices of a regular polygon
-    
+
     circum_radius : float
         The circum radius of the regular polygon
-    
+
     interior_angle : float
         Interior angle of the regular polygon
 
     edge_length : float
         Length of the sides of the regular polygon
-    
+
     apothem : float
         The length of the perpendicular line drawn from the center of the polygon to one of its sides
-    
+
     area : float
         The total area of the regular polygon
 
@@ -32,10 +32,10 @@ class regular_polygon:
     -----------
     #### __init__(self, num_of_sides, circum_radius)
             Used to initialize the regular_polygon objects
-    
+
     #### __repr__(self)
             Overwrites the default class object representation
-    
+
     #### __eq__(self, other: object)
             Checks the equality of the objects passed based on the number of vertices and circum radius
 

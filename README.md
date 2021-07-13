@@ -5,37 +5,38 @@ ________________________________________________________________________________
 
 ### Question - 1
 
-### Objective: Create a Polygon Class where initializer takes in number of edges/vertices and circumradius. They have these properties edges, vertices, interior angle, edge length, apothem, area, perimeter. That has these functionalities, __repr__ function, implements equality (==) based on # vertices and circumradius (__eq__) and implements > based on number of vertices only (__gt__)
+#### Objective: Create a Polygon Class where initializer takes in number of edges/vertices and circumradius. They have these properties edges, vertices, interior angle, edge length, apothem, area, perimeter. That has these functionalities, __repr__ function, implements equality (==) based on # vertices and circumradius (__eq__) and implements > based on number of vertices only (__gt__)
 
 #### __regular_polygon__ :
 + This class is used to define regular polygons of 'n' sides and 'r' circum_radius
+    
     ##### Attributes
     --------------
-    num_of_sides : int
-        Number of edges/vertices of a regular polygon
-    circum_radius : float
-        The circum radius of the regular polygo
-    interior_angle : float
-        Interior angle of the regular polygon
-    edge_length : float
-        Length of the sides of the regular polygon
-    apothem : float
-        The length of the perpendicular line drawn from the center of the polygon to one of its sides
-    area : float
-        The total area of the regular polygon
-    perimeter : float
-        The perimeter of the regular polygon
+    * num_of_sides : int
+        - Number of edges/vertices of a regular polygon
+    * circum_radius : float
+        - The circum radius of the regular polygo
+    * interior_angle : float
+        - Interior angle of the regular polygon
+    * edge_length : float
+        - Length of the sides of the regular polygon
+    * apothem : float
+        - The length of the perpendicular line drawn from the center of the polygon to one of its sides
+    * area : float
+        - The total area of the regular polygon
+    * perimeter : float
+        - The perimeter of the regular polygon
     
     ##### Methods
     --------------
-    __init__ (self, num_of_sides, circum_radius)
-            Used to initialize the regular_polygon objects
-    __repr__ (self)
-            Overwrites the default class object representations
-    __eq__ (self, other: object)
-            Checks the equality of the objects passed based on the number of vertices and circum radius
-    __gt__ (self, other: object)
-            Checks if one object is '>' than the other based on the number of vertices
+    * __init__ (self, num_of_sides, circum_radius)
+        - Used to initialize the regular_polygon objects
+    * __repr__ (self)
+        - Overwrites the default class object representations
+    * __eq__ (self, other: object)
+        - Checks the equality of the objects passed based on the number of vertices and circum radius
+    * __gt__ (self, other: object)
+        - Checks if one object is '>' than the other based on the number of vertices
 __________________________________________________________________________________________________________________
 
 ### Question - 2
