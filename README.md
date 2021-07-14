@@ -33,6 +33,11 @@ ________________________________________________________________________________
         - Used to initialize the regular_polygon objects, with the num_of_sides and circum_radius parameters passed.
         - input: num_of_sides: int and circum_radius: float
         - return: None
+    * __set_polygon_property__ ()
+        - This method computes the interior_angle, edge_length, apothem, area and perimeter
+        - Set each of the above as object property
+        - input: None (access object attribute num_of_sides: int and circum_radius: float)
+        - return: None
     * __repr__ (self)
         - Overwrites the default class object representation to 'This is a regular polygon with {self.num_of_sides} sides and {self.circum_radius} unit circum_radius'
         - input - None

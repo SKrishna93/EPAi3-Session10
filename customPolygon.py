@@ -87,7 +87,7 @@ class custom_polygon_sequence:
             largest_num_of_sides and circum_rad
         '''
         return f'This is a polygon sequence with the largest polygon having {self.largest_num_of_sides} sides and each polygon having {self.circum_rad} unit circum_radius'
-    
+
     @property
     def max_efficiency_polygon(self)-> str:
         '''
@@ -101,7 +101,7 @@ class custom_polygon_sequence:
             self.area_peri_ratios[i] = self.__getitem__(i)
         key = max(self.area_peri_ratios, key = self.area_peri_ratios.get)
         return f'The area-perimeter ratio of the max efficient polygon is {round(self.area_peri_ratios[key],2)} with {key} vertices'
-    
+
     @staticmethod
     @lru_cache(2**10)
     def _poly_ratio(vertex: int, circum_rad: float)-> float:

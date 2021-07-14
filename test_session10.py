@@ -23,7 +23,6 @@ README_CONTENT_CHECK_FOR = [
     'apothem',
     'area',
     'perimeter',
-    'max_efficiency_polygon',
     '_poly_ratio',
     'max_efficiency_polygon',
     'largest_num_of_sides',
