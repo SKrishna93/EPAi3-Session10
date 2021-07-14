@@ -88,7 +88,7 @@ def test_polygon_indentations():
 
 def test_customPolygon_indentations():
     """
-    Method checks for proper indentations \
+    Method checks for proper indentations
     Returns pass if used four spaces for each level of syntactically significant indenting.
     failures_message_1: Your script contains misplaced indentations
     failures_message_2: Your code indentation does not follow PEP8 guidelines

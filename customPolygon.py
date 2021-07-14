@@ -8,34 +8,34 @@ class custom_polygon_sequence:
 
     ### Attributes
     --------------
-    largest_num_of_sides : int
-        The polygon with largest number of sides in the sequence
+    #### largest_num_of_sides : int
+            The polygon with largest number of sides in the sequence
 
-    circum_rad : float
-        The common circum radius of all the polygons in the sequence
+    #### circum_rad : float
+            The common circum radius of all the polygons in the sequence
 
-    area_peri_ratios : dict()
-        The dictionary to store the area and perimeter as values and vertices as keys
+    #### area_peri_ratios : dict()
+            The dictionary to store the area and perimeter as values and vertices as keys
 
     ### Methods
     -----------
     #### __init__(largest_num_of_sides, circum_rad)
-        This is a contructor for the custom_polygon_sequence class
+            This is a contructor for the custom_polygon_sequence class
 
     #### __getitem__(vertex)
-        This method implements getitem[index] for the sequence object
+            This method implements getitem[index] for the sequence object
 
     #### __len__()
-        This method implements in the len() function on the sequence object
+            This method implements in the len() function on the sequence object
 
     #### __repr__()
-        This method overrides the default class object representation
+            This method overrides the default class object representation
 
     #### max_efficiency_polygon()
-        This method computes the polygon with maximum area-perimeter ratio
+            This method computes the polygon with maximum area-perimeter ratio
 
     #### _poly_ratio(int, circum_rad)
-        This is a static method which computes the ratio between area and perimeter of each of the polygon
+            This is a static method which computes the ratio between area and perimeter of each of the polygon
     '''
     def __init__(self, largest_num_of_sides: int, circum_rad: float) -> None:
         '''

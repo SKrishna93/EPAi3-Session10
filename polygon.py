@@ -7,26 +7,26 @@ class regular_polygon:
 
     ### Attributes
     --------------
-    num_of_sides : int
-        Number of edges/vertices of a regular polygon
+    #### num_of_sides : int
+            Number of edges/vertices of a regular polygon
 
-    circum_radius : float
-        The circum radius of the regular polygon
+    #### circum_radius : float
+            The circum radius of the regular polygon
 
-    interior_angle : float
-        Interior angle of the regular polygon
+    #### interior_angle : float
+            Interior angle of the regular polygon
 
-    edge_length : float
-        Length of the sides of the regular polygon
+    #### edge_length : float
+            Length of the sides of the regular polygon
 
-    apothem : float
-        The length of the perpendicular line drawn from the center of the polygon to one of its sides
+    #### apothem : float
+            The length of the perpendicular line drawn from the center of the polygon to one of its sides
 
-    area : float
-        The total area of the regular polygon
+    #### area : float
+            The total area of the regular polygon
 
-    perimeter : float
-        The perimeter of the regular polygon
+    #### perimeter : float
+            The perimeter of the regular polygon
 
     ### Methods
     -----------
